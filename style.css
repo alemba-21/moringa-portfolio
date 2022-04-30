@@ -6,10 +6,22 @@
 
 .nav{
     font-family: 'Nunito', sans-serif;
+    display: flex;
     
 }
 
-.header_left{
-    font-weight: 900;
+.btn{
+    background-color: #EC4067;
+    text-emphasis-color: white;
 }
-    
+
+.header_right{
+    float: right;
+}
+
+.header_right ul ol{
+    display: inline-block;
+    padding: 0px 10px;
+    text-align: right;
+
+}
